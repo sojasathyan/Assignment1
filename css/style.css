@@ -1,0 +1,178 @@
+/*Athour : Soja */
+/* Date:2 february 2023 */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700;400;&display=swap");
+h1 {
+	font-family: "Roboto", sans-serif;
+	font-weight: 900;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.banner {
+	background-image: url("../images/academy-banner.jpg");
+	height: 700px;
+	background-size: cover;
+}
+.orisysacademy {
+	position: absolute;
+	top: 250px;
+	right: 70px;
+}
+.orisysacademy img {
+	width: 245px;
+}
+.width {
+	width: 700px;
+	font-size: 30px;
+	position: absolute;
+	top: 350px;
+	right: 10px;
+}
+.width h1 {
+	color: #1e2531;
+}
+.dream {
+	margin-left: 25%;
+}
+.seconddiv {
+	padding: 3%;
+	position: relative;
+}
+.points h3::before {
+	content: "{";
+	color: #ff005df9;
+}
+.points h3::after {
+	content: "}";
+	color: #ff005df9;
+}
+.points {
+	width: 58%;
+	height: 350px;
+	padding: 30px;
+
+	background-color: #1e2531;
+	color: #00aaff;
+	position: absolute;
+	top: 0;
+	left: 565px;
+	margin-top: 12%;
+}
+.points h3 {
+	padding: 20px;
+	font-size: 30px;
+}
+.secondimg {
+	margin-top: 20px;
+	margin-left: 50px;
+}
+
+.paragraph {
+	color: #1e2531;
+	text-align: center;
+	padding: 40px 150px;
+	font-size: 25px;
+}
+.thirddiv {
+	background-image: url("../images/modulebg.jpg");
+	height: 700px;
+	background-size: cover;
+	display: flex;
+}
+.subthird {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	align-self: center;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	gap: 30px;
+}
+.subthird div {
+	width: 300px;
+	padding: 20px;
+	border-radius: 15px;
+	text-align: center;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+.paragraph2 {
+	padding: 4%;
+}
+.para {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 25px;
+}
+.fourthfirst {
+	background-image: url("../images/testsbg.jpg");
+	background-size: cover;
+	height: 500px;
+	width: 80%;
+	padding: 50px;
+	display: flex;
+	align-self: center;
+}
+.fourthsecond {
+	background-image: url("../images/intrvwbg.jpg");
+	background-size: cover;
+	height: 500px;
+	width: 80%;
+	padding: 50px;
+	display: flex;
+	align-self: center;
+}
+.fourthdiv {
+	display: flex;
+}
+.stylefourth {
+	background-color: rgba(6, 8, 11, 0.7);
+	color: #fff;
+	width: 100%;
+	padding: 10%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.stylefourth p {
+	padding: 12%;
+	font-size: 25px;
+}
+.final1 h1 {
+	color: #181e22;
+	text-align: center;
+	padding: 50px;
+}
+.joinnow {
+	border: 2px solid #f26422;
+	color: #f26422;
+	width: 200px;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+.joinnow h2 {
+	padding: 10px;
+	text-align: center;
+}
+.office {
+	display: flex;
+	justify-content: space-between;
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.cooperative {
+	padding: 10px;
+	text-align: center;
+}
+
+.cooperative div {
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
