@@ -324,6 +324,7 @@ h1 {
 		font-size: 15px;
 		text-align: center;
 		padding: 5px;
+		margin-bottom: 15px;
 	}
 	.joinnow {
 		border: 2px solid #f26422;
@@ -348,10 +349,11 @@ h1 {
 	}
 	.cooperative {
 		text-align: center;
+		font-size: 10px;
 	}
 
 	.cooperative div {
-		padding: 20px;
+		padding: 15px;
 		margin-left: auto;
 		margin-right: auto;
 	}
