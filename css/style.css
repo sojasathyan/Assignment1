@@ -12,7 +12,7 @@ h1 {
 }
 .banner {
 	background-image: url("../images/academy-banner.jpg");
-	height: 700px;
+	height: 800px;
 	background-size: cover;
 }
 .orisysacademy {
@@ -178,12 +178,15 @@ h1 {
 @media screen and (max-width: 576px) {
 	.banner {
 		width: 100%;
-		height: 500px;
+		height: 400px;
 		background-image: none;
 		background-color: gray;
 		display: flex;
 		flex-direction: column;
 		justify-content: space-evenly;
+	}
+	.master {
+		margin: 0;
 	}
 
 	.orisysacademy {
@@ -283,8 +286,8 @@ h1 {
 	.fourthfirst {
 		background-image: url("../images/testsbg.jpg");
 		background-size: cover;
-		height: 500px;
-		width: 80%;
+		height: 400px;
+		width: 50%;
 		padding: 50px;
 		display: flex;
 		align-self: center;
@@ -292,8 +295,8 @@ h1 {
 	.fourthsecond {
 		background-image: url("../images/intrvwbg.jpg");
 		background-size: cover;
-		height: 500px;
-		width: 80%;
+		height: 400px;
+		width: 50%;
 		padding: 50px;
 		display: flex;
 		align-self: center;
@@ -304,23 +307,23 @@ h1 {
 	.stylefourth {
 		background-color: rgba(6, 8, 11, 0.7);
 		color: #fff;
-		width: 100%;
-		padding: 10%;
+
+		padding: 2%;
 		margin-left: auto;
 		margin-right: auto;
 	}
 	.stylefourth p {
-		padding: 12%;
-		font-size: 25px;
+		font-size: 12px;
 	}
 	.final1 {
 		width: 100%;
+		border: solid 2px;
 	}
 	.final1 h1 {
 		color: #181e22;
-		font-size: 30px;
+		font-size: 15px;
 		text-align: center;
-		padding: 10px;
+		padding: 8px;
 	}
 	.joinnow {
 		border: 2px solid #f26422;
